@@ -11,6 +11,10 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalugot/MERN-Shopping-List.git"
+  },
   "author": "Ram Sudeep Kalugotla",
   "license": "ISC",
   "dependencies": {
