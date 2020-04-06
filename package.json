@@ -1,6 +1,10 @@
 {
   "name": "mern_shopping_list",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.12.0",
+    "npm": "6.13.1"
+  },
   "description": "A shopping list with MERN Stack",
   "main": "server.js",
   "scripts": {
